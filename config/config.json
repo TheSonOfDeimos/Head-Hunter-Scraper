@@ -1,0 +1,19 @@
+{
+    "firefox":
+    {
+        "profile_path": "/Users/levkargalov/Library/Application Support/Firefox/Profiles/",
+        "profiles":
+        [
+            "9kukrbzt.head-hunter-web-scraper"
+        ]
+    },
+
+    "head_hunter_urls":
+    {
+        "main_page": "https://spb.hh.ru",
+        "login_page": "https://spb.hh.ru/login",
+        "resume_page": "https://spb.hh.ru/applicant/resumes",
+
+        "update_button_xpath": "/html/body/div[6]/div/div/div[3]/div/div/div/div[1]/div[2]/div[2]/div/div[5]/div/div/div/div[1]/span/button"
+    }
+}
