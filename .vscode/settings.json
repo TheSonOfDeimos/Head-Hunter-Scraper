@@ -1,0 +1,13 @@
+{
+    "cSpell.enableFiletypes": [
+        "cmake",
+        "cpp",
+        "hpp",
+        "log",
+        "makefile",
+        "plist",
+        "powershell",
+        "shellscript",
+        "tex"
+    ]
+}

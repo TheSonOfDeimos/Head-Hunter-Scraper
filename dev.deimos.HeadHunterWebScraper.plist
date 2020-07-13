@@ -2,14 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>RunAtLoad</key>
-    <true/>
-    <key>Label</key>
-    <string>dev.deimos.HeadHunterWebScraper</string>
-    <key>ProgramArguments</key>
-    <array>
-        <string>/usr/local/opt/python/bin/python3.7</string>
-        <string>/Users/levkargalov/Documents/Projects/Programming/Python/Head-Hunter-Scraper/src/main.py</string>
-    </array>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>HEAD_HUNTER_WEB_SCRAPER_CONFIG_PATH</key>
+		<string>/usr/local/share/dev.deimos.HeadHunterWebScraper/config/config.json</string>
+	</dict>
+	<key>Label</key>
+	<string>dev.deimos.HeadHunterWebScraper</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/dev.deimos.HeadHunterWebScraper</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
 </dict>
 </plist>

@@ -1,6 +1,7 @@
 {
     "firefox":
     {
+        "gecko_driver_path": "/usr/local/Cellar/geckodriver/0.26.0/bin/geckodriver",
         "profile_path": "/Users/levkargalov/Library/Application Support/Firefox/Profiles/",
         "profiles":
         [
@@ -15,5 +16,10 @@
         "resume_page": "https://spb.hh.ru/applicant/resumes",
 
         "update_button_xpath": "/html/body/div[6]/div/div/div[3]/div/div/div/div[1]/div[2]/div[2]/div/div[5]/div/div/div/div[1]/span/button"
+    },
+
+    "system":
+    {
+        "logs_path": "/var/log/dev.deimos.HeadHunterWebScraper.log"
     }
 }
